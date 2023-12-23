@@ -1,5 +1,5 @@
 <?php
-/**
+/#*
  * SAMPLE Code to demonstrate how to initiate a SAML Authorization request
  *
  * When the user visits this URL, the browser will be redirected to the SSO
@@ -46,3 +46,4 @@ if (!isset($_SESSION['samlUserdata'])) {
     }
     echo '<p><a href="slo.php">Logout</a></p>';
 }
+ 
